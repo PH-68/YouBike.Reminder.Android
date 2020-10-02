@@ -13,8 +13,6 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -124,7 +122,6 @@ public class SecondFragment extends Fragment {
                 //.addHeader("Accept-Encoding", "gzip, deflate, br")
                 .addHeader("Accept", "*/*")
                 .addHeader("User-Agent", "PoyiAndroidBot(Project:YouBikeReminder)/0.1")
-                .addHeader("Host", "data.ntpc.gov.tw")
                 .build();
         try {
             Response response = client.newCall(request).execute();

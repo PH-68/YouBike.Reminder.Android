@@ -42,15 +42,11 @@ public class FirstFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        //StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-        //StrictMode.setThreadPolicy(policy);
          new Thread(() -> {
 
 
             String JsonString = SendWebRequestAsync("https://data.ntpc.gov.tw/api/datasets/71CD1490-A2DF-4198-BEF1-318479775E8A/json?page=0&size=650");
 
-            //jj = new String(jj.getBytes(), "ASCII");
-            //view.setContentView(R.layout.fragment_first);
 
             TextView textView1 = view.findViewById(R.id.textView1);
             TextView textView2 = view.findViewById(R.id.textView2);
@@ -123,7 +119,6 @@ public class FirstFragment extends Fragment {
                 //.addHeader("Accept-Encoding", "gzip, deflate, br")
                 .addHeader("Accept", "*/*")
                 .addHeader("User-Agent", "PoyiAndroidBot(Project:YouBikeReminder)/0.1")
-                .addHeader("Host", "data.ntpc.gov.tw")
                 .build();
         try {
             Response response = client.newCall(request).execute();

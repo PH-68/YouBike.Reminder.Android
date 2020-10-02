@@ -49,8 +49,6 @@ public class MainActivity extends AppCompatActivity {
         ////////////////////////////////////////////
 
         fab.setOnClickListener((View.OnClickListener) view -> {
-            //StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
-            //StrictMode.setThreadPolicy(policy);
             new Thread(() -> {
 
 
@@ -205,7 +203,6 @@ public class MainActivity extends AppCompatActivity {
                 //.addHeader("Accept-Encoding", "gzip")
                 .addHeader("Accept", "*/*")
                 .addHeader("User-Agent", "PoyiAndroidBot(Project:YouBikeReminder)/0.1")
-                .addHeader("Host", "data.ntpc.gov.tw")
                 .build();
         try {
             Response response = client.newCall(request).execute();
