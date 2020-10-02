@@ -1,0 +1,142 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:minWidth="25dp"
+    android:minHeight="25dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.FluentUI.Title2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.FluentUI.Title2" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="It's an ImageView"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:padding="10dp"
+            app:srcCompat="@mipmap/reset" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.FluentUI.Title2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.FluentUI.Title2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="It's an ImageView"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:padding="10dp"
+            app:srcCompat="@mipmap/reset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.FluentUI.Title2" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="@style/TextAppearance.FluentUI.Title2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="It's an ImageView"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:padding="10dp"
+            app:srcCompat="@mipmap/reset" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="25dp"
+        android:minHeight="25dp"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+</LinearLayout>
