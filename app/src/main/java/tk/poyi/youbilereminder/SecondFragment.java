@@ -43,7 +43,6 @@ public class SecondFragment extends Fragment {
                 .build();
         Request request = new Request.Builder()
                 .url("https://opendata.cwb.gov.tw/api/v1/rest/datastore/O-A0003-001?Authorization=rdec-key-123-45678-011121314&locationName=%E6%96%B0%E5%BA%97&elementName=WDIR,WDSD,TEMP,HUMD,PRES,H_UVI,VIS")
-                //.url("https://api.openweathermap.org/data/2.5/weather?q=%E6%96%B0%E5%BA%97%E5%8D%80,%E6%96%B0%E5%8C%97%E5%B8%82&appid=44d31a1e35fb9166af8c0af891f9cf10")
                 .method("GET", null)
                 .addHeader("Connection", "keep-alive")
                 //.addHeader("Accept-Encoding", "gzip")
